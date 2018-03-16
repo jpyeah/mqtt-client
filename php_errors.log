@@ -1,0 +1,9 @@
+[16-Mar-2018 14:16:08 PRC] PHP Fatal error:  Class 'models\Message' not found in /usr/local/var/www/mqtt-client/test.php on line 25
+[16-Mar-2018 14:17:57 PRC] PHP Fatal error:  Class 'models\Message' not found in /usr/local/var/www/mqtt-client/test.php on line 25
+[16-Mar-2018 14:23:25 PRC] PHP Fatal error:  Cannot redeclare models\Message::__construct() in /usr/local/var/www/mqtt-client/models/Message.php on line 16
+[16-Mar-2018 14:24:03 PRC] PHP Fatal error:  Cannot access parent:: when current class scope has no parent in /usr/local/var/www/mqtt-client/models/Message.php on line 12
+[16-Mar-2018 14:24:28 PRC] PHP Fatal error:  Access to undeclared static property: models\Message::$table in /usr/local/var/www/mqtt-client/models/Message.php on line 11
+[16-Mar-2018 14:25:20 PRC] PHP Notice:  Undefined variable: Message in /usr/local/var/www/mqtt-client/test.php on line 44
+[16-Mar-2018 14:25:20 PRC] PHP Notice:  Trying to get property of non-object in /usr/local/var/www/mqtt-client/test.php on line 44
+[16-Mar-2018 14:25:20 PRC] PHP Warning:  require_once(./lib/PDO.php): failed to open stream: No such file or directory in /usr/local/var/www/mqtt-client/test.php on line 15
+[16-Mar-2018 14:25:20 PRC] PHP Fatal error:  require_once(): Failed opening required './lib/PDO.php' (include_path='.:/usr/local/Cellar/php56/5.6.23/share/pear') in /usr/local/var/www/mqtt-client/test.php on line 15
